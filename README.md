@@ -3,6 +3,13 @@
 Este portafolio reúne los proyectos desarrollados durante el bootcamp Full Stack, mostrando el progreso gradual en programación, diseño web, bases de datos, backend con Django y despliegue.
 Cada proyecto evidencia crecimiento en lógica, arquitectura, modelamiento de datos e implementación de soluciones reales.
 
+## 👩‍💻 Sobre mí
+
+Soy ingeniera civil bioquímica especializada en economía circular y sostenibilidad, con formación en desarrollo tecnológico, ciencia de datos y creación de productos digitales.
+Mi enfoque une la innovación digital con la sustentabilidad, integrando análisis ambiental, modelos de datos, diseño de interfaces y pensamiento estratégico orientado a sistemas circulares.
+
+He liderado proyectos en simbiosis industrial, valorización agroalimentaria y gestión territorial, aplicando criterios ESG, herramientas de análisis y tecnologías emergentes para impulsar la transición hacia modelos más eficientes y regenerativos.
+
 ---
 
 ## 🚀 Proyectos del Bootcamp
@@ -116,41 +123,22 @@ El proyecto está desplegado en **Vercel** y puede probarse públicamente.
 
 ---
 
-## 👩‍💻 Sobre mí
-
-Soy ingeniera civil bioquímica especializada en economía circular y sostenibilidad, con formación en desarrollo tecnológico, ciencia de datos y creación de productos digitales.
-Mi enfoque une la innovación digital con la sustentabilidad, integrando análisis ambiental, modelos de datos, diseño de interfaces y pensamiento estratégico orientado a sistemas circulares.
-
-He liderado proyectos en simbiosis industrial, valorización agroalimentaria y gestión territorial, aplicando criterios ESG, herramientas de análisis y tecnologías emergentes para impulsar la transición hacia modelos más eficientes y regenerativos.
-
----
-
 ## 🗺️ Roadmap de Aprendizaje
 
-* ✔️ Fundamentos de programación con Python
-* ✔️ Lógica de datos y estructuras
-* ✔️ Bases de datos SQL
-* ✔️ Desarrollo web con HTML, CSS y JS
-* ✔️ Backend con Django y autenticación
-* ✔️ Modelos relacionales y ORM
-* ✔️ Diseño UI/UX y landing pages
-* ✔️ Despliegue en producción (Vercel / GitHub Pages)
+* Fundamentos de programación con Python
+* Lógica de datos y estructuras
+* Bases de datos SQL
+* Desarrollo web con HTML, CSS y JS
+* Backend con Django y autenticación
+* Modelos relacionales y ORM
+* Diseño UI/UX y landing pages
+* Despliegue en producción (Vercel / GitHub Pages)
 
-Próximos pasos:
+## ⏭️ Próximos pasos:
 
-* ⏭️ APIs REST con Django REST Framework
-* ⏭️ Integración de dashboards con datos reales
-* ⏭️ Automatización y modelos predictivos
-* ⏭️ Proyectos de ciencia de datos orientados a sostenibilidad
-* ⏭️ Integración con sistemas geoespaciales (GIS)
+* APIs REST con Django REST Framework
+* Integración de dashboards con datos reales
+* Automatización y modelos predictivos
+* Proyectos de ciencia de datos orientados a sostenibilidad
+* Integración con sistemas geoespaciales (GIS)
 
----
-
-Si quieres, puedo:
-
-✅ Ajustarlo a un estilo más formal
-✅ Convertirlo en versión bilingüe
-✅ Incluir enlaces directos a cada repositorio
-✅ Generar un banner para el README en formato imagen
-
-¿Deseas alguna de estas opciones?
