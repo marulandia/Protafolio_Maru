@@ -1,143 +1,156 @@
-Portafolio Web – Proyectos del Bootcamp Full Stack Python/Django
+# 📘 Portafolio Web – Proyectos del Bootcamp Full Stack Python/Django
 
-Este portafolio reúne los proyectos desarrollados a lo largo del bootcamp Full Stack, mostrando el progreso gradual en programación, diseño web, bases de datos, desarrollo backend con Django y despliegue en producción.
-Cada proyecto representa una etapa de avance técnico y conceptual dentro de la formación, evidenciando el crecimiento en lógica, arquitectura, modelamiento de datos, interfaces e implementación de soluciones reales.
+Este portafolio reúne los proyectos desarrollados durante el bootcamp Full Stack, mostrando el progreso gradual en programación, diseño web, bases de datos, backend con Django y despliegue.
+Cada proyecto evidencia crecimiento en lógica, arquitectura, modelamiento de datos e implementación de soluciones reales.
 
-1. Proyectos del Bootcamp
-1️⃣ Sitio web de ciberseguridad (HTML, CSS, Bootstrap, JS)
+---
 
-Sitio educativo que explica conceptos esenciales de ciberseguridad utilizando tarjetas, carruseles y secciones responsivas. Este proyecto marcó el inicio del trabajo con HTML y CSS, aplicando buenas prácticas de estructura, semántica y diseño adaptable.
+## 🚀 Proyectos del Bootcamp
 
-2️⃣ Inventario de hilos v1 (Python – consola)
+### 1️⃣ Sitio web de ciberseguridad (HTML, CSS, Bootstrap, JS)
 
-Aplicación en Python para gestionar un inventario de hilos mediante un menú interactivo. Incluye funciones para agregar, buscar y actualizar materiales. Representa el avance inicial en lógica, estructuras de datos y programación modular.
+Sitio educativo que explica conceptos esenciales de ciberseguridad utilizando tarjetas, carruseles y secciones responsivas.
+Este proyecto marcó el inicio del trabajo con HTML y CSS, aplicando buenas prácticas de estructura semántica, diseño adaptable y organización visual.
 
-3️⃣ Inventario de hilos v2 con persistencia (Python + archivos)
+---
 
-Versión ampliada del proyecto anterior, implementando clases, manejo de excepciones y guardado en archivos .txt. Introduce conceptos de POO, encapsulamiento, validación y separación de responsabilidades.
+### 2️⃣ Inventario de hilos v1 (Python – consola)
 
-4️⃣ Base de datos de gestión comercial (SQL – MySQL)
+Aplicación en Python para gestionar inventario mediante un menú interactivo.
+Permite agregar, buscar, actualizar y verificar hilos necesarios para patrones. Sirve como práctica de estructuras de datos, modularidad y lógica de programación.
 
-Script SQL que modela clientes, inventario, proveedores y ventas con relaciones 1:N y N:N. Incluye creación de tablas, restricciones, consultas avanzadas, JOINS y operaciones DDL/DML. Ejercicio clave en diseño y normalización de bases de datos.
+---
 
-5️⃣ Gestor de tareas (Django – autenticación y permisos)
+### 3️⃣ Inventario de hilos v2 – Persistencia en archivos
 
-Aplicación web que permite gestionar tareas personales y públicas. Implementa autenticación, permisos por usuario, CRUD completo, formularios y vistas basadas en funciones. Primera integración sólida entre backend, frontend y base de datos.
+Versión mejorada que incorpora almacenamiento en archivo `.txt`.
+Incluye clases, manejo de excepciones y separación de responsabilidades, simulando un sistema de inventario más cercano a un caso real.
 
-6️⃣ TruequeApp – Marketplace de productos usados (Django)
+---
 
-Plataforma simple donde usuarios pueden publicar y gestionar productos. Aplica control de permisos, validación de propietario, sistema de mensajería y vistas detalladas. Ejercicio práctico de flujos reales entre compradores y vendedores.
+### 4️⃣ Base de datos MySQL para gestión de ventas (SQL)
 
-7️⃣ Sistema de gestión de productos con relaciones avanzadas (Django + MySQL)
+Script SQL completo que implementa un modelo relacional para administrar clientes, proveedores, hilos y ventas.
+Incluye claves primarias y foráneas, relaciones 1:N y N:M, cargas iniciales y consultas complejas con `JOIN`, `GROUP BY` y `HAVING`.
 
-Aplicación que administra productos, categorías y etiquetas con relaciones OneToOne, OneToMany y ManyToMany. Incluye panel administrativo, roles, permisos por grupo y vistas protegidas. Ejemplo claro de arquitectura escalable en Django.
+---
 
-8️⃣ Marketplace completo: productos, clientes y pedidos (Django)
+### 5️⃣ Gestor de tareas en Django
 
-Aplicación robusta que modela productos, clientes y pedidos, incluyendo scripts de carga inicial, perfiles, autenticación, dashboard administrativo y órdenes con múltiples ítems. Uno de los proyectos más completos del bootcamp.
+Aplicación web con autenticación y permisos.
+Permite diferenciar tareas públicas y privadas por usuario, integrando vistas, formularios, modelos y lógica de control de acceso.
 
-9️⃣ Marketplace Pastel – Landing page UX/UI (HTML + CSS + Bootstrap)
+---
 
-Landing page orientada a exhibir productos con estética pastel, enfatizando storytelling visual, diseño limpio, tarjetas con detalles y una experiencia lineal. Proyecto enfocado en diseño front-end y estética UI.
+### 6️⃣ TruequeApp – Marketplace de productos usados (Django)
 
-🔟 Diagnóstico Circular ASB – Web App en producción (Django + Vercel)
+Marketplace que permite a vendedores crear y administrar productos, mientras compradores navegan y contactan al vendedor.
+Incluye validación de permisos, vistas protegidas, panel administrativo y un flujo de interacción seguro.
 
-Aplicación funcional para medir el nivel de madurez en economía circular con 10 áreas temáticas, preguntas guiadas y resultados visuales. Desplegada en Vercel. Primera experiencia real de diseño, desarrollo, debug y despliegue.
+---
 
-2. Stack Tecnológico Utilizado
-Frontend
+### 7️⃣ Aplicación para gestión de productos (Django + MySQL)
 
-🟦 HTML5 & CSS3 – Estructura y estilo para interfaces web modernas.
+Sistema que administra productos, categorías y etiquetas usando relaciones 1:1, 1:N y N:N.
+Incluye CRUD completo, autenticación por grupos (Manager, Editor, Viewer) y navegación condicionada según permisos.
 
-🟪 Bootstrap 5 – Componentes responsivos y diseño adaptable.
+---
 
-🟩 JavaScript ES6 – Interactividad y lógica en el navegador.
+### 8️⃣ Marketplace v2 (Django avanzado)
 
-Backend
+Marketplace robusto con gestión de productos, clientes y pedidos.
+Considera roles, autenticación, scripts de carga, formularios dinámicos y un dashboard completo de administración.
 
-🐍 Python 3 – Lenguaje principal para lógica y desarrollo.
+---
 
-🌐 Django – Framework backend para vistas, modelos, enrutamiento y autenticación.
+### 9️⃣ Marketplace Pastel – Landing page UX/UI
 
-⚙️ Jinja / Django Templates – Renderizado dinámico del contenido.
+Landing page visual en tonos pastel, diseñada como experiencia lineal sin navegación externa.
+Incluye hero principal, tarjetas de productos, paleta suave y diseño adaptable. Ideal para campañas, portafolios o presentaciones.
 
-Bases de Datos
+---
 
-🗄️ MySQL – Modelado, relaciones, consultas y normalización.
+### 🔟 Diagnóstico Circular ASB – Web App (Vercel)
 
-📂 SQLite – Base de datos ligera usada en desarrollo local.
+Herramienta web para medir el nivel de madurez en economía circular de una empresa.
+Incluye un cuestionario de 10 áreas temáticas, cálculo automático de puntaje y recomendaciones personalizadas.
+El proyecto está desplegado en **Vercel** y puede probarse públicamente.
 
-Control de versiones y despliegue
+🔗 **Demo en Vercel:** [https://diagnosticoasb-3le8u2kz5-maria-martinezs-projects-b3d9a6de.vercel.app/](https://diagnosticoasb-3le8u2kz5-maria-martinezs-projects-b3d9a6de.vercel.app/)
 
-🐙 GitHub – Repositorios, versionado y documentación.
+---
 
-🚀 Vercel – Despliegue continuo de aplicaciones.
+## 🛠️ Stack tecnológico
 
-🔧 Git – Flujo de trabajo con commits, ramas y merges.
+### Lenguajes
 
-Herramientas complementarias
+* 🐍 **Python 3** – Backend, scripts y lógica de negocio
+* 🌐 **HTML5** – Estructura semántica
+* 🎨 **CSS3** – Estilos, animaciones y diseño responsivo
+* ⚡ **JavaScript** – Funcionalidades dinámicas e interacción
 
-🎨 Figma (conceptual) – Bocetos y estructura visual.
+### Frameworks y Frontend
 
-📊 Data tools (inicio) – Uso inicial de análisis y organización de datos.
+* 🧩 **Django** – Arquitectura web robusta
+* 🅱️ **Bootstrap 5** – Diseño responsivo y componentes UI
+* 🧭 **jQuery** – Manipulación del DOM y eventos
 
-📝 Markdown – Documentación clara y estandarizada.
+### Bases de datos
 
-3. Sobre mí
+* 🗄️ **MySQL** – Esquemas relacionales, consultas avanzadas
+* 💾 **SQLite** – Desarrollo local y prototipado rápido
 
-Soy ingeniera civil bioquímica especializada en economía circular y sostenibilidad, con formación en desarrollo tecnológico, ciencia de datos y creación de productos digitales. Mi interés está en construir soluciones que integren datos, diseño y tecnología para resolver desafíos ambientales reales.
+### Control de versiones
 
-Durante el bootcamp he aplicado esta perspectiva en cada proyecto, uniendo lógica, modelamiento de datos, experiencia de usuario y desarrollo backend para crear aplicaciones funcionales. Este portafolio representa tanto mi avance técnico como mi capacidad para aprender de manera autónoma, iterativa y orientada a resolver problemas concretos.
+* 🧭 **Git** – Control de cambios
+* 🌐 **GitHub** – Repositorios, Issues, Pull Requests
 
-4. Roadmap de Aprendizaje
-Etapa 1 — Fundamentos
+### Habilidades demostradas
 
-Dominio de HTML, CSS y Bootstrap
+* 🧱 Diseño de modelos y relaciones
+* 🔒 Gestión de permisos y autenticación
+* 🛰️ Implementación de vistas y rutas
+* 🧰 Desarrollo backend robusto con Python y Django
+* 📊 Organización y manejo de datos relacionales
+* 💡 Diseño adaptable centrado en usuario (UI/UX)
 
-Lógica en Python y estructuras de datos
+---
 
-POO, modularización y archivos
+## 👩‍💻 Sobre mí
 
-Etapa 2 — Bases de Datos
+Soy ingeniera civil bioquímica especializada en economía circular y sostenibilidad, con formación en desarrollo tecnológico, ciencia de datos y creación de productos digitales.
+Mi enfoque une la innovación digital con la sustentabilidad, integrando análisis ambiental, modelos de datos, diseño de interfaces y pensamiento estratégico orientado a sistemas circulares.
 
-Diseño relacional
+He liderado proyectos en simbiosis industrial, valorización agroalimentaria y gestión territorial, aplicando criterios ESG, herramientas de análisis y tecnologías emergentes para impulsar la transición hacia modelos más eficientes y regenerativos.
 
-Implementación en MySQL
+---
 
-Consultas avanzadas y normalización
+## 🗺️ Roadmap de Aprendizaje
 
-Etapa 3 — Backend con Django
+* ✔️ Fundamentos de programación con Python
+* ✔️ Lógica de datos y estructuras
+* ✔️ Bases de datos SQL
+* ✔️ Desarrollo web con HTML, CSS y JS
+* ✔️ Backend con Django y autenticación
+* ✔️ Modelos relacionales y ORM
+* ✔️ Diseño UI/UX y landing pages
+* ✔️ Despliegue en producción (Vercel / GitHub Pages)
 
-Modelos, vistas, urls, templates
+Próximos pasos:
 
-Formularios, autenticación y permisos
+* ⏭️ APIs REST con Django REST Framework
+* ⏭️ Integración de dashboards con datos reales
+* ⏭️ Automatización y modelos predictivos
+* ⏭️ Proyectos de ciencia de datos orientados a sostenibilidad
+* ⏭️ Integración con sistemas geoespaciales (GIS)
 
-CRUD completo y relaciones entre entidades
+---
 
-Etapa 4 — Full Stack
+Si quieres, puedo:
 
-Integración backend-frontend
+✅ Ajustarlo a un estilo más formal
+✅ Convertirlo en versión bilingüe
+✅ Incluir enlaces directos a cada repositorio
+✅ Generar un banner para el README en formato imagen
 
-Renderizado dinámico
-
-Interfaces intuitivas y diseño UX
-
-Etapa 5 — Despliegue
-
-Manejo de repositorios
-
-Debugging y buenas prácticas
-
-Deploy en Vercel y GitHub Pages
-
-Etapa 6 — Próximos pasos
-
-APIs REST (Django REST Framework)
-
-Autenticación JWT
-
-Consumo de APIs externas
-
-Integración con ciencia de datos y dashboards
-
-Introducción a DevOps (Docker, CI/CD)
+¿Deseas alguna de estas opciones?
